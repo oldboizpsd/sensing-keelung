@@ -14,6 +14,12 @@
 
 沒有麥克風也能玩：熱氣 20 秒後會自己散開。
 
+## 網頁版
+
+https://oldboizpsd.github.io/sensing-keelung/
+
+每次推上 GitHub 會自動更新（`.github/workflows/pages.yml`）。用電腦版 Chrome 打開，允許相機和麥克風，點一下畫面讓聲音出來。網頁版沒有本機伺服器，所以卡片不會存檔、也沒有 QR code。
+
 ## 卡片和 QR code
 
 - 卡片存在 `sensing-keelung/cards/`，最多 20 張，舊的自動刪掉。
