@@ -1,0 +1,15 @@
+{
+  "name": "sensing-keelung",
+  "version": "0.1.0",
+  "private": true,
+  "description": "感覺一座城市 Sensing Keelung：全鏡頭互動的雨夜基隆",
+  "type": "module",
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "start": "node server.js",
+    "kiosk": "node scripts/kiosk.mjs"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "latest"
+  }
+}

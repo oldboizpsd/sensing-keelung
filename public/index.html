@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="data:," />
+  <title>感覺一座城市｜Sensing Keelung</title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <canvas id="stage"></canvas>
+  <canvas id="fx"></canvas>
+  <video id="cam" playsinline muted></video>
+
+  <div id="scene"></div>
+  <div id="detail"></div>
+  <div id="hint"></div>
+  <div id="fatal"></div>
+
+  <!-- 結尾：問題、卡片和 QR code -->
+  <div id="question"></div>
+  <div id="ending"></div>
+
+  <!-- 手的位置 -->
+  <div class="hand"></div>
+  <div class="hand"></div>
+
+  <!-- 握拳收集的碎片 -->
+  <div id="strip">
+    <div id="strip-count"></div>
+    <div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div>
+  </div>
+
+  <!-- 除錯畫面：按 D 開關 -->
+  <aside id="debug" hidden>
+    <canvas id="debug-cam" width="320" height="180"></canvas>
+    <div id="debug-info"></div>
+    <p>D 關閉除錯 · N 下一個場景 · M 滑鼠模擬：滑鼠 = 手、按住 = 握拳、Shift = 身體在動、[ ] 轉頭、P 指、U 兩手上抬、B 吹氣、T 講話、Y 點頭、H 搖頭</p>
+  </aside>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
